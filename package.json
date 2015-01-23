@@ -1,0 +1,31 @@
+{
+  "name": "any-http-jquery",
+  "version": "0.1.0",
+  "description": "AnyHTTP adapter for jQuery",
+  "keywords": [
+    "http",
+    "any-http",
+    "jquery"
+  ],
+  "homepage": "https://github.com/argo-rest/any-http-jquery",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/argo-rest/any-http-jquery.git"
+  },
+  "main": "src/any-http-jquery.js",
+  "author": "Sébastien Cevey <seb@cine7.net>",
+  "license": "Apache-2",
+  "jspm": {
+    "registry": "jspm",
+    "format": "es6",
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "jquery": "^2.1.1"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.10.6"
+  }
+}
